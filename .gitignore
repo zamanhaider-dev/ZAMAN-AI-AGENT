@@ -1,0 +1,47 @@
+# Node dependencies
+node_modules/
+package-lock.json
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# WhatsApp Authentication & Multi-Device Session State
+# CRITICAL: Never commit session credentials or keys
+Sessions/
+session/
+*.session
+creds.json
+
+# Environment variables & secrets
+.env
+.env.local
+.env.*.local
+
+# Databases & Runtime State (Keep templates clean, do not commit client chats/leads)
+database/chatHistory.json
+database/contacts.json
+database/groups.json
+database/notes.json
+database/reminders.json
+database/scheduled_messages.json
+database/tasks.json
+database/settings.json
+!database/.gitkeep
+
+# System & temporary logs
+*.log
+logs/
+tmp/
+temp/
+pino.log
+
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# IDE & Editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace

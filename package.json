@@ -1,0 +1,41 @@
+{
+  "name": "zaman-ai-agent",
+  "version": "2.0.0",
+  "description": "Executive AI WhatsApp Business Assistant for Zaman Haider — Powered by Gemini, OpenAI, Groq, Baileys & Anti-Ban Telemetry",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "qr": "node index.js qr",
+    "code": "node index.js code"
+  },
+  "keywords": [
+    "whatsapp",
+    "baileys",
+    "ai-agent",
+    "gemini",
+    "openai",
+    "groq",
+    "crm",
+    "automation",
+    "whatsapp-bot",
+    "anti-ban",
+    "voice-ai"
+  ],
+  "author": "Zaman Haider <Zamanhaider.ai@gmail.com> (https://www.zamanhaider.site)",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "@hapi/boom": "^10.0.1",
+    "@whiskeysockets/baileys": "^6.7.23",
+    "axios": "^1.7.9",
+    "cfonts": "^3.3.0",
+    "chalk": "^5.3.0",
+    "dotenv": "^16.4.7",
+    "form-data": "^4.0.1",
+    "pino": "^9.5.0",
+    "qrcode": "^1.5.4"
+  }
+}
